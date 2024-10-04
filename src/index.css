@@ -1,1 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    justify-content: space-between;
+    border-bottom: 2px solid  gray;
+    align-items:   center;
+  }
+nav h2{
+    color:grey;
+}
+nav .link{
+    margin-top: 20px;
+    padding-left: 10px;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  nav .link:hover{
+    color: red;
+  }

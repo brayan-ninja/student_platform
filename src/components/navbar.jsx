@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {Component} from 'react';
 class Navbar extends Component{
     render(){
@@ -6,8 +6,8 @@ class Navbar extends Component{
             <nav>
                 <h1>Student Platform</h1>
                 <div classname="links">
-                    <link to="">Home</link>
-                    <link to="">create</link>
+                    <Link to="/">Home</Link>
+                    <Link to="/create">Create</Link>
                 </div>
             </nav>
         );
