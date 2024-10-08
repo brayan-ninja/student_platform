@@ -15,16 +15,60 @@ nav{
     border-bottom: 2px solid  gray;
     align-items:   center;
   }
-nav h2{
+nav h1{
     color:grey;
 }
 nav .link{
     margin-top: 20px;
     padding-left: 10px;
-    color: blue;
+    
+}
+.link a{
+    padding-left: 10px;
     text-decoration: none;
-  }
+    color: black;
+}
+.link:hover{
+color:blue;
+}
+
+form{
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: left;
+    border-bottom: 1px solid gray;
   
-  nav .link:hover{
-    color: red;
-  }
+}
+form label, select{
+    display: block;
+    font-weight: bold;
+    margin-top:10px;
+}
+input,  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border:  2px solid gray;
+    margin-top: 10px;
+}
+.btn-save{
+    background:darkslategray;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+button {
+    /* General styles */
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
