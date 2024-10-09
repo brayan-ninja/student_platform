@@ -1,0 +1,21 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "",
+      "gender": "",
+      "course": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "409d",
+      "name": "omar hershi",
+      "gender": "",
+      "course": "software dev",
+      "email": "brayanninja71@gmail.com",
+      "password": "1234567890"
+    }
+  
+  ]
+}
