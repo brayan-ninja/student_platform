@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './components/Home';
 import Create from './components/Create';
 import './App.css';
+import StudentDetails from "./components/Studentdetails";
+
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
           <Route path="/create">
           <Create/>
           </Route>
+          <Route path='/student-details/:id'>
+          <StudentDetails/>
+        </Route>
+
         </Switch>
       </div>
      </Router>

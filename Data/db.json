@@ -1,21 +1,12 @@
 {
   "students": [
     {
-      "id": "1",
-      "name": "",
-      "gender": "",
-      "course": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "409d",
-      "name": "omar hershi",
+      "name": " kamau",
+      "email": "kamau@gmail.com",
       "gender": "",
       "course": "software dev",
-      "email": "brayanninja71@gmail.com",
-      "password": "1234567890"
+      "password": "eqdkafkwhdfwha",
+      "id": "2f2b"
     }
-  
   ]
 }
